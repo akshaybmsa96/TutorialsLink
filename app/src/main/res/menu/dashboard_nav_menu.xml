@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/homeicon" />
+
+        <!--
+        <item
+            android:id="@+id/dashboard"
+            android:title="My Dashboard"
+            android:icon="@mipmap/ic_dashboard" />
+            -->
+
+        <item
+            android:id="@+id/tutorials"
+            android:title="Tutorials"
+            android:icon="@drawable/tuticon" />
+
+        <item
+            android:id="@+id/articles"
+            android:title="Articles"
+            android:icon="@drawable/articleicon" />
+
+
+        <item
+            android:id="@+id/news"
+            android:title="News"
+            android:icon="@drawable/newsicon" />
+
+        <item
+            android:id="@+id/videos"
+            android:title="Videos"
+            android:icon="@drawable/videosicon" />
+
+        <!--
+        <item
+            android:id="@+id/events"
+            android:title="Events"
+            android:icon="@drawable/eventsicon" />
+            -->
+
+    </group>
+<group android:id="@+id/group_follow"
+    android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/followers_id"
+                android:title="Followers"
+                android:icon="@drawable/ic_followers">
+            </item>
+
+
+            <item
+                android:id="@+id/following_id"
+                android:title="Following"
+                android:icon="@drawable/ic_following">
+            </item>
+
+</group>
+
+<item
+    android:title="Settings">
+    <menu>
+
+    <group android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+
+    <item android:id="@+id/editprofile"
+        android:title="Edit Profile"
+        android:icon="@drawable/ic_profileedit"/>
+
+        <item android:id="@+id/changepassword"
+            android:title="Change Password"
+            android:icon="@drawable/ic_changepassword"/>
+
+
+        <item
+            android:id="@+id/logout_id"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout">
+        </item>
+
+    </group>
+    </menu>
+
+</item>
+
+</menu>

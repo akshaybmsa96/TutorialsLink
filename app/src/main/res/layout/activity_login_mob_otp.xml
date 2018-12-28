@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativelayoutView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp">
+
+
+        <EditText
+            android:id="@+id/editTextOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ccp"
+            android:backgroundTint="@color/white"
+            android:hint="OTP"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <TextView
+            android:id="@+id/textViewResendOTP"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/lightwhite"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextOTP" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="58dp"
+        android:background="@color/colorPrimary"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewVoiceOTP"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/buttonContinue"
+        android:textColor="@color/lightwhite"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonContinue" />
+
+
+</RelativeLayout>

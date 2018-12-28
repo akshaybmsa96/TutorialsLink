@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="dot menu"
+        android:id="@+id/search"
+        android:icon="@mipmap/ic_search"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:title="dot menu"
+        android:icon="@mipmap/ic_dots_blue"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/scanQR"
+                android:title="Scan QR"
+                android:icon="@drawable/icon_qr"
+                app:showAsAction="always">
+            </item>
+
+
+            <item
+                android:id="@+id/support"
+                android:title="Support"
+                android:icon="@drawable/contact_us"
+                app:showAsAction="always">
+            </item>
+
+            <item
+                android:id="@+id/rateUs"
+                android:title="Rate Us"
+                android:icon="@mipmap/ic_rateus"
+                app:showAsAction="always">
+            </item>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

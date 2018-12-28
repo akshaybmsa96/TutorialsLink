@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativelayoutView"
+    android:background="@color/colorPrimaryDark">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/layout">
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:contentColor="@color/white"
+        app:defaultCode="91">
+    </com.hbb20.CountryCodePicker>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Phone Number"
+        android:id="@+id/editTextUserPhnNumber"
+        android:layout_toRightOf="@+id/ccp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey"/>
+
+    </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="68dp"
+            android:layout_below="@+id/layout"
+            android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textViewSkip"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/buttonContinue"
+        android:textColor="@color/lightwhite"
+        android:text="Skip For Now ? "/>
+
+
+</RelativeLayout>

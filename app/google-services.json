@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331612235668",
+    "firebase_url": "https://tutorialslink-5109b.firebaseio.com",
+    "project_id": "tutorialslink-5109b",
+    "storage_bucket": "tutorialslink-5109b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331612235668:android:66845458920e7424",
+        "android_client_info": {
+          "package_name": "tutorialslink.com.tutorialslinkwebview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331612235668-khd3l9dsc95fhppelf7t07laam0lbhpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tutorialslink.com.tutorialslinkwebview",
+            "certificate_hash": "83c8a126a4ae8a88e89e20b57ef318ddc52cd3e9"
+          }
+        },
+        {
+          "client_id": "331612235668-875giqk2gdvbogssj6nvlfjrmqcs14ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiSgInJqdQIB3LeBI4QzNcbXqg2eZ_1NQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331612235668-875giqk2gdvbogssj6nvlfjrmqcs14ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
